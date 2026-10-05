@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Project Specific
+lancedb_data/
+schemas/
+uploaded_dbs/
+tmp/
+.pytest_cache/
+*.sqlite
+uvicorn.log
